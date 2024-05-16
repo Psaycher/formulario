@@ -1,0 +1,40 @@
+body {
+    background-image: url('fondoBlanco.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center;
+    color: black;
+}
+
+body.light-mode {
+    background-image: url('fondoBlanco.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: black;
+}
+
+body.dark-mode {
+    background-image: url('fondoNegro.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    color: whitesmoke;
+}
+
+.bg-light.dark-mode {
+    background-color: #1f1f1f !important;
+}
+
+.form-label.dark-mode,
+.form-check-label.dark-mode {
+    color: #ffffff;
+}
+
+.btn-dark-mode {
+    background-color: #333333;
+    color: #ffffff;
+}
